@@ -1,6 +1,8 @@
 *{
     margin: 0;
     padding: 0;
+    background-color: black;
+    color: white;
 }
 .calc_wrap{
     width: 330px;
@@ -20,7 +22,7 @@
 .display{
     width: 290px;
     height: 70px;
-    border: 1px solid black;
+    border: 1px solid rgb(124, 124, 124);
     margin: 20px auto 20px auto;
     border-radius: 5px;
 }
@@ -39,8 +41,7 @@
     border: 1px solid #545454;
 }
 .buttons .btn_equal{
-    width: 150px;
-    margin-left: 20px;
+    width: 170px;
 }
 button:hover{
     background-color: #545454;
